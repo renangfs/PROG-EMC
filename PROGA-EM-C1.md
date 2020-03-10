@@ -3,6 +3,7 @@
 10/03/2020
 #### Compilar= _É transformar programa para linguagem de máquina_.
 #### Algoritomo= _É o conjunto de instruções que permite resolver um problema_.
+#### Programa= _É o conjunto de comandos especificos que traduzem para o computador oque um algoritimo determinou que deve ser realizado_.
 ........................................................................................................................................
 #### Estrutura básica:
 
@@ -69,10 +70,7 @@ saida escreva()=soma
 #### livro fundamentos da programação de computadores: https://plataforma.bvirtual.com.br/Leitor/Publicacao/417/pdf/0
 usar e abusar da biblioteca 
 
-#### Programa= _É o conjunto de comandos especificos que traduzem para o computador oque um algoritimo determinou que deve ser realizado_.
-
-###### estudar lingua C novamente pois esta ficando em alta
-
+##### estudar lingua C novamente pois esta ficando em alta
 
 Analise e desenvolvimento de sistemas
 
@@ -96,5 +94,5 @@ separar os ingredientes: pao, hamburgue, queijo, salada, tomate, molhos.
 
 - 8 e fechar o pão.
 
-- 9 comer
+- 9 comer.
 
