@@ -6,7 +6,7 @@
 
 Estrutura básica:
 
-Algoritimo <nome>
+_Algoritimo_ <nome>
    
    "declaraçao de variáveis"
    
