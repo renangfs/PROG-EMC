@@ -29,7 +29,95 @@ Algoritimo <nome>
 regras para nomeclarura de nomes de algoritimos,variáveis,onstantes funções,...
 
 compilar= e transformar programa para linguagem de máquina.
-K4u9kW
+
+#### variaveis em letra minuscula:
+1 começar com letra:
+2 nao pode utiliar caracter especial: tudo que seja diferente de A-Z  e 0-9
+cuidado com o _ = evitar usar
+3 nao pode usar palavra reservada linguagem.
+#### fazer um programa que entra com 2 numeros e apresentar a soma:
+
+#### variavel= espaço de memoria para armazenar dados.
+- possui um nome.
+- possui possui um endereço ( de armazenamento ).
+- possui um tipo de dados.
+
+#### constante= memoria que armazena dados imutaveis.
+
+### tipos de dados
+-caracter ou string Ex: " ".............string=conjunto de carancter
+x <- "1"+"1"=
+x="11"
+
+#### 2)Numérico
+
+- inteiro Ex:14,-7, 
+- Real Ex:10.5,-3.4,3.0
+
+#### 3)Logico (boleano)
+1= verdadeiro 0= falso
+
+
+.................................................................................................................................
+entrada leia()= n1  n2
+
+processamento = soma <- n1+n2
+- soma = atribuição
+
+saida escreva()=soma
+
+
+
+
+
+
+
+
+#### Declaraçao de variaveis
+
+nome da variavel : tipo de dados
+
+
+
+
+
+#### Comando de entrada de dados
+- via usuario
+- no algoritimo usamos o comando :leia( )
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+adriana=dado
+adriana professora de T.I=informação
+adriana professora da aula = conhecimento
+
 
 
 
