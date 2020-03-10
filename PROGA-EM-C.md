@@ -4,6 +4,8 @@
 
 Algoritomo= conjunto de instruções que permite resolver um problema.
 
+Programa= É o conjunto de comandos especificos que traduzem para o computador oque um algoritimo determinou que deve ser realizado.
+
 Analise e desenvolvimento de sistemas
 
 
