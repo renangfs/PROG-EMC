@@ -12,10 +12,10 @@ Algoritimo <nome>
    "declaraçao de variáveis"
    
   Inicio
-  
+  .
   .
   ."Comandos
-  
+  .
   .
   Fim
   
