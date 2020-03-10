@@ -2,7 +2,7 @@
 
 10/03/2020
 #### Compilar= _É transformar programa para linguagem de máquina_.
-#### Algoritomo= _É o conjunto de instruções que permite resolver um problema._
+#### Algoritomo= _É o conjunto de instruções que permite resolver um problema_.
 
 Estrutura básica:
 
