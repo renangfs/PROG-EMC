@@ -76,7 +76,8 @@ usar e abusar da biblioteca
 
 Analise e desenvolvimento de sistemas
 
-#### portugues estruturado:
+#### português estruturado:
+
 separar os ingredientes: pao, hamburgue, queijo, salada, tomate, molhos.
 
 - 1 cortar o pao em 2 partes.
