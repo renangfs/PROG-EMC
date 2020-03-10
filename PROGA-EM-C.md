@@ -13,7 +13,8 @@ Algoritimo <nome>
   ."Comandos
   .
   Fim
- ver livro livro fundamentos da programação de computadores:https://plataforma.bvirtual.com.br/Leitor/Publicacao/417/pdf/0
+ ver livro livro fundamentos da programação de computadores:
+   https://plataforma.bvirtual.com.br/Leitor/Publicacao/417/pdf/0
   usar e abusar da biblioteca
   
 regras para nomeclarura de nomes de algoritimos,variáveis,onstantes funções,...
