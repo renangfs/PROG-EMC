@@ -2,7 +2,40 @@
 
 10/03/2020
 
-Algoritomo= É o conjunto de instruções que permite resolver um problema.
+
+
+#### Algoritomo= É o conjunto de instruções que permite resolver um problema.
+Estrutura básica
+Algoritimo <nome>
+   "declaraçao de variáveis"
+  Inicio
+  .
+  ."Comandos
+  .
+  Fim
+ ver livro livro fundamentos da programação de computadores:https://plataforma.bvirtual.com.br/Leitor/Publicacao/417/pdf/0
+  usar e abusar da biblioteca
+  
+regras para nomeclarura de nomes de algoritimos,variáveis,onstantes funções,...
+
+compilar= e transformar programa para linguagem de máquina.
+K4u9kW
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 Programa= É o conjunto de comandos especificos que traduzem para o computador oque um algoritimo determinou que deve ser realizado.
 
