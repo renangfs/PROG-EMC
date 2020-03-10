@@ -12,11 +12,13 @@ Algoritimo <nome>
    "declaraçao de variáveis"
    
   Inicio
+  
   .
   
   ."Comandos
   
   .
+  
   Fim
   
  ver livro livro fundamentos da programação de computadores:
