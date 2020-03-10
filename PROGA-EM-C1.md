@@ -4,7 +4,7 @@
 #### Compilar= e transformar programa para linguagem de máquina.
 #### Algoritomo= É o conjunto de instruções que permite resolver um problema.
 
-Estrutura básica:
+Estrutura _básica_:
 
 _Algoritimo_ <nome>
    
