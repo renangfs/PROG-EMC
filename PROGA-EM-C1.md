@@ -48,7 +48,8 @@ Boas Praticas:
 - possui um tipo de dados.
 
 ### tipos de dados
-- caracter ou string Ex: " ".............string=conjunto de carancter
+- caracter ou string Ex:"a","!","1"
+- string=conjunto de carancter
 x <- "1"+"1"
 x=-"11"
 
