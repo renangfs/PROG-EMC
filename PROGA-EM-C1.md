@@ -36,6 +36,7 @@ Algoritimo < nome >
 nome de da variavel nao pode iniciar com numero
 nome da variavelnao pode ter espaço
 nome de variavel nao pode ter caracteres especiais ex: tudo que seja diferente de A-Z e 0-9
+
 Boas Praticas:
 - nome da variavel começar sempre em minusculo
 - nome da variavel deve ser sujestivo
