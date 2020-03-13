@@ -1,6 +1,6 @@
 ### AULA 1
 
-10/03/2021
+10/03/2020
 #### Compilar= _É transformar programa para linguagem de máquina_.
 #### Algoritomo= _É o conjunto de instruções que permite resolver um problema_.
 #### Programa= _É o conjunto de comandos especificos que traduzem para o computador oque um algoritimo determinou que deve ser realizado_.
