@@ -1,9 +1,10 @@
-
+#### AULA2
+25/03/2020
 
 
 Esrtrutuera basica de um algoritmi
 
-algoritimio nao pode come çar por numero ...
+algoritimio nao pode come çar por numero 
 
 exemplo
 // declaraçao de variaveis--nome da variável:tipo de dados
