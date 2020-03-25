@@ -2,9 +2,10 @@
 25/03/2020
 
 
-Esrtrutuera basica de um algoritmi
-
-algoritimio nao pode come çar por numero 
+Esrtrutuera basica de um algoritmo
+- 1 começar com letra
+- 2 nao pode utiliar caracter especial: tudo que seja diferente de A-Z e 0-9, cuidado com o _ ,evitar usar.
+- 3 nao pode usar palavra reservada linguagem.
 
 exemplo
 // declaraçao de variaveis--nome da variável:tipo de dados
