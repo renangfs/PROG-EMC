@@ -21,8 +21,11 @@ COMANDO DE SAIDA DE DADOS_____________ESCREVA()___________________________Printf
 Variaveis-Declaraçao__________________nome da variavel:tipo de dados  (tipo de dados nome da variavel)
 
 comentario em bloco é possivel fazer em varias linhas
-manin= primeiro lugar ue vai dar start no algoritimo
+
+main= primeiro lugar ue vai dar start no algoritimo
+
 %D= numeros reais
+
 %f= numero decimais
 
 
