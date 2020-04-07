@@ -50,6 +50,28 @@ sobre o salário base.
                     
                         return 0;
      }
+    
+    
+### EXE 3= FAÇA UM PROGRAMA QUE DIGA SE A PESSOA POR IDADE VOTA OU NÃO
+
+    #include <stdio.h>
+     
+          int main()
+          {
+             int idade;
+        
+             printf("digite sua idade:..");
+             scanf("%d", &idade);
+         
+                  if(idade > 17) 
+                  {printf("VOTA!!");}
+                  else
+                  {printf("NÃO VOTA!!");}
+             
+            
+        
+
+     }
 
 
 
