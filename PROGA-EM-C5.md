@@ -8,10 +8,8 @@
 #include <stdio.h>
 
 int main()
-
 {
-
-  float n1,n2,n3,resultado;
+float n1,n2,n3,resultado;
        
         printf("Digite o primeiro numero:...");
         scanf("%f", &n1);
@@ -27,5 +25,4 @@ int main()
                 printf("A media aritimetica desses numeros é:  %f",resultado);
                 
 return 0;
-                    
-}
+ }
