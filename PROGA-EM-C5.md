@@ -2,9 +2,10 @@
 07/04/2020
 
 ## EXE 1= FAÇA UM PROGRAMA QUE PEGUE 3 VALORES E FAÇA A MEDIA ARITIMETICA
-#include <stdio.h>
+
 - esta sendo utilizado o float para numeros decimais
 
+#include <stdio.h>
 int main()
 {
   float n1,n2,n3,resultado;
