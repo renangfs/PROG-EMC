@@ -29,3 +29,50 @@
        return 0;
 
        }
+       
+       ## EXE 2= Faça um programa que receba o salário base de um funcionário, calcule e mostre o salário a receber,
+sabendo-se que o funcionário tem gratificação de 5% sobre o salário base e paga imposto de 7% também
+sobre o salário base.
+
+     #include <stdio.h>
+
+          int main()
+     {
+                  int sal,grat,imp,newsal;
+    
+                      printf("Salario do Funcionario:..");
+                      scanf("%d", &sal);
+            
+                        grat= sal * 5/100 ;
+                        imp = sal  * 7/100 ;
+                        newsal=sal+grat-imp ;
+                
+                              printf("O funcionario deve receber:%d",newsal);
+                    
+                        return 0;
+     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
