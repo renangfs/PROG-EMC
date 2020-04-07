@@ -5,27 +5,27 @@
 
 - esta sendo utilizado o float para numeros decimais
 
-   #include <stdio.h>
+       #include <stdio.h>
 
-   int main()
+        int main()
 
-  {
+       {
 
-       float n1,n2,n3,resultado;
+            float n1,n2,n3,resultado;
        
-          printf("Digite o primeiro numero:...");
-          scanf("%f", &n1);
+               printf("Digite o primeiro numero:...");
+               scanf("%f", &n1);
           
-              printf("Digite o segundo numero:...");
-               scanf("%f", &n2);
+                   printf("Digite o segundo numero:...");
+                    scanf("%f", &n2);
              
-                  printf("Digite o terceiro numero:...");
-                  scanf("%f", &n3);
+                       printf("Digite o terceiro numero:...");
+                       scanf("%f", &n3);
                 
-                  resultado=(n1+n2+n3)/3;
+                       resultado=(n1+n2+n3)/3;
                 
-                  printf("A media aritimetica desses numeros é:  %f",resultado);
+                       printf("A media aritimetica desses numeros é:  %f",resultado);
                 
-  return 0;
+       return 0;
 
-  }
+       }
