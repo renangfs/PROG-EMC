@@ -3,9 +3,9 @@
 
 ## EXE 1= FAÇA UM PROGRAMA QUE PEGUE 3 VALORES E FAÇA A MEDIA ARITIMETICA
 #include <stdio.h>
-
+- esta sendo utilizado o float para numeros decimais
 int main()
-{//esta sendo utilizado o float para numeros decimais//
+{
   float n1,n2,n3,resultado;
        
         printf("Digite o primeiro numero:...");
