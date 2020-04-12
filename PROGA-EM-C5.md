@@ -1,7 +1,7 @@
 ### AULA 5
 07/04/2020
 
-## EXE 1= FAÇA UM PROGRAMA QUE PEGUE 3 VALORES E FAÇA A MEDIA ARITIMETICA
+## EXE 1/exe 2 livro= FAÇA UM PROGRAMA QUE PEGUE 3 VALORES E FAÇA A MEDIA ARITIMETICA
 
 - esta sendo utilizado o float para numeros decimais
 
@@ -30,7 +30,7 @@
 
        }
        
-## EXE 2= Faça um programa que receba o salário base de um funcionário, calcule e mostre o salário a receber,sabendo-se que o funcionário tem gratificação de 5% sobre o salário base e paga imposto de 7% também
+## EXE 2/exe 6 do livro-= Faça um programa que receba o salário base de um funcionário, calcule e mostre o salário a receber,sabendo-se que o funcionário tem gratificação de 5% sobre o salário base e paga imposto de 7% também
 sobre o salário base.
 
      #include <stdio.h>
@@ -72,6 +72,9 @@ sobre o salário base.
         
 
      }
+     
+### EXE 4/exe7 livro= Faça um programa que receba o salário base de um funcionário, calcule e mostre seu salário a receber,
+sabendo-se que o funcionário tem gratificação de R$ 50 e paga imposto de 10% sobre o salário base.
 
 
 
