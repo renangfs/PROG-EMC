@@ -73,8 +73,24 @@ sobre o salário base.
 
      }
      
-### EXE 4/exe7 livro= Faça um programa que receba o salário base de um funcionário, calcule e mostre seu salário a receber,
-sabendo-se que o funcionário tem gratificação de R$ 50 e paga imposto de 10% sobre o salário base.
+### EXE 4/exe7 livro= Faça um programa que receba o salário base de um funcionário, calcule e mostre seu salário a receber,sabendo-se que o funcionário tem gratificação de R$ 50 e paga imposto de 10% sobre o salário base.
+#include <stdio.h>
+
+          int main()   
+    
+ {                     int salbase,dezporc,newsal;
+
+                              printf("digite o salario do funcionário:.");
+                              scanf("%d",&salbase);
+                
+                                  dezporc=salbase*0.10;
+                
+                                  newsal=salbase-dezporc+50;
+                
+                                  printf("O valor a ser pago é:%d", newsal);
+                
+                                  return 0;        
+}
 
 
 
