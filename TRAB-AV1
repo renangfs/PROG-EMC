@@ -124,7 +124,7 @@
       cout << "\n";
       cout << "Funcionário: " << nome <<" "<<sobrenome << endl;
       cout << "Cargo: Desenvolvedor Júnior" << endl;
-      if (mes==1)//
+      if (mes==1)//Condições para mês
             {cout << "Mês de redereência:  janeiro " << anoReferencia << endl;}
         else if (mes==2)
             {cout << "Mês de redereência:  fevereiro " << anoReferencia << endl;}
@@ -152,7 +152,7 @@
       cout << "Base de Cálculo IR......................... R$ " << baseCalculoIr << endl;
       cout << "\n";
       cout << "1. Salário Bruto........................... R$ " << salario << endl;
-      cout << "2. (-) IR do empregado (Faixa 0" << faixaIr <<  ") ......... R$ " << floorf(irpfTotalEmpregado*100)/100 << endl;
+      cout << "2. (-) IR do empregado (Faixa 0" << faixaIr <<  ") ......... R$ " << floorf(irpfTotalEmpregado*100)/100 << endl;//utilizei a biblioteca #include <cmath> 
       cout << "3. (-) INSS Empregado (Alíquota " << aliquotaInss << "%)....... R$ " << inssEmpregado << endl;
       cout << "-------------------------------------------------------" << endl;
       cout << "4. = Salário Líquido....................... R$ " << salarioLiquido << endl;
@@ -161,7 +161,7 @@
       cout << "-------------------------------------------------------" << endl;
       cout << "\n";
       cout << "Total dos Vencimentos...................... R$ " << salario << endl;
-      cout << "Total dos Descontos........................ R$ " << floorf((irpfTotalEmpregado + inssEmpregado)*100)/100 << endl;
+      cout << "Total dos Descontos........................ R$ " << floorf((irpfTotalEmpregado + inssEmpregado)*100)/100 << endl;//utilizei a biblioteca #include <cmath>
       cout << "Valor Líquido.............................. R$ " << salarioLiquido << endl;
       cout << "\n";
       cout << "-------------------------------------------------------" << endl;
@@ -174,3 +174,4 @@
       cout << "Faixa IRPF................................. R$ " << endl;
       system("pause");
    }
+     
