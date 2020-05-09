@@ -1,25 +1,30 @@
-INICIO 
-      salario, salarioLiquido: real
-      opcaoMes, anoReferencia: inteiro
-      nome[15], sobrenome[15]: caracteres
-      mes=0: inteiro 
+#include <iostream>
+#include <cmath>
+
+using namespace std;
+
+int main() {
+  float salario, salarioLiquido;
+  int opcaoMes, anoReferencia;
+  char nome[15], sobrenome[15];
+  int mes=0;
 
   // Variáveis INSS
-      inssEmpregado: real
-      aliquotaInss: inteiro
+  float inssEmpregado;
+  int aliquotaInss;
 
   // Variáveis IR
-  baseCalculoIr, deducao, irARecolher: real
-  aliquotaIr5, aliquotaIr4, aliquotaIr3, aliquotaIr2, aliquotaIr1, aliquotaIr: real
-  descontoIr5, descontoIr4, descontoIr3, descontoIr2, descontoIr1, descontoIr: real
+  float baseCalculoIr, deducao, irARecolher;
+  float aliquotaIr5, aliquotaIr4, aliquotaIr3, aliquotaIr2, aliquotaIr1, aliquotaIr;
+  float descontoIr5, descontoIr4, descontoIr3, descontoIr2, descontoIr1, descontoIr;
   
-  int faixaIr: inteiro
+  int faixaIr;
   
-  // Variáveis FGTS
-  fgts: real
+        // Variáveis FGTS
+  float fgts;
 
   // Zerando as variáveis que podem conter valores e evitar erros
-  faixaIr = aliquotaInss = baseCalculoIr = deducao = irARecolher = 0
+  faixaIr = aliquotaInss = baseCalculoIr = deducao = irARecolher = 0; 
 
   // Área de Configuração de alíquotas 
   aliquotaIr5 = 0.275;
@@ -37,136 +42,138 @@ INICIO
   descontoIr1 = 0;
   
 
-  escreva("Digite o primeiro nome do funcionário sem espaço: . . . ")
-  leia (nome)
-  escreva("Digite o primeiro sobrenome do funcionário sem espaço: . . . ")
-  leia (sobrenome)
-  escreva("\n\n")
+  cout << "Digite o primeiro nome do funcionário sem espaço... ";
+  cin >> nome;
+  cout << "Digite o primeiro sobrenome do funcionário sem espaço... ";
+  cin >> sobrenome;
+  cout << "\n\n";
 
-  escreva("Digite o mês de referência 1 a 12... ")
-  leia(mes)
+  cout << "Digite o mês de referência 1 a 12... ";
+  cin >> mes;
   
         
-  escreva("Digite o ano de referência Ex. 2011... ")
-  leia(anoReferencia)
+  cout << "Digite o ano de referência Ex. 2011... ";
+  cin >> anoReferencia;
 
-  escreva("Digite o valor do salário bruto?... ")
-  leia(salario)
+  cout << "Digite o valor do salário bruto?... ";
+  cin >> salario;
 
 
   // Primeiro Calculamos o INSS 
-   se (salario <= 0)então
-      escreva("Salário necessita ser um valor menor que zero")       
-   senão (salario <= 1556.94 )então
-      inssEmpregado = 0.08 * salario
+  if (salario <= 0) {
+      cout << "Salário necessita ser um valor menor que zero";        
+  } else if (salario <= 1556.94 ) {
+      inssEmpregado = 0.08 * salario;
       aliquotaInss = 8;
-   senão (salario <= 2594.92 )então 
-      inssEmpregado = 0.09 * salario
+  } else if (salario <= 2594.92 ) {
+      inssEmpregado = 0.09 * salario;
       aliquotaInss = 9;
-   senão (salario <= 5189.82 )então
-      inssEmpregado = 0.11 * salario
+  } else if (salario <= 5189.82 ) {
+      inssEmpregado = 0.11 * salario;
       aliquotaInss = 11;
-   senão (salario > 5189.82 )então 
+  } else if (salario > 5189.82 ) {
   // Limitado a 11% do limite superior 
-      inssEmpregado = 0.11 * 5189.82
-      aliquotaInss = 11
-  
+      inssEmpregado = 0.11 * 5189.82;
+      aliquotaInss = 11;
+  }
 
   baseCalculoIr = salario - inssEmpregado;
   
     // Cálculo de IR https://www.debit.com.br/tabelas/tabelas-irrf.php
-    se (salario <= 0) 
-      escreva("Salário necessita ser um valor menor que zero")        
-   senão (salario > 4664.68) então
-      descontoIr = descontoIr5
-      aliquotaIr = aliquotaIr5
-      faixaIr = 5
-   senão (salario >= 3751.06) então
-      descontoIr = descontoIr4
-      aliquotaIr = aliquotaIr4
-      faixaIr = 4
-   senão (salario >= 2826.66) então
-      descontoIr = descontoIr3
-      aliquotaIr = aliquotaIr3
-      faixaIr = 3
-   senão (salario > 1903.99) então
-      descontoIr = descontoIr2
-      aliquotaIr = aliquotaIr2
-      faixaIr = 2
+    if (salario <= 0) {
+      cout << "Salário necessita ser um valor menor que zero";        
+  } else if (salario > 4664.68) {
+      descontoIr = descontoIr5;
+      aliquotaIr = aliquotaIr5;
+      faixaIr = 5;
+  } else if (salario >= 3751.06) {
+      descontoIr = descontoIr4;
+      aliquotaIr = aliquotaIr4;
+      faixaIr = 4;
+  } else if (salario >= 2826.66) {
+      descontoIr = descontoIr3;
+      aliquotaIr = aliquotaIr3;
+      faixaIr = 3;
+  } else if (salario > 1903.99) {
+      descontoIr = descontoIr2;
+      aliquotaIr = aliquotaIr2;
+      faixaIr = 2;
 
-   senão (salario <= 1903.98) então
-      descontoIr = descontoIr1
-      aliquotaIr = aliquotaIr1
-      faixaIr = 1
-  
+  } else if (salario <= 1903.98) {
+      descontoIr = descontoIr1;
+      aliquotaIr = aliquotaIr1;
+      faixaIr = 1;
+  }
 
   irARecolher = (baseCalculoIr * aliquotaIr) - descontoIr;  
 
   // Cálculo fgts
-  fgts = 0.08 * salario
+  fgts = 0.08 * salario;
 
   // Cálculo total dos descontos
   salarioLiquido = salario - irARecolher - inssEmpregado;
   
   
-  escreva("\n\n")
-  escreva("***************************************************"\n)
-  escreva("*    ZE DAS COUVES LTDA - 72.503.000/0001-15     **"\n)
-  escreva("***************************************************"\n)
-  system("pause")
-  escreva("\n")
-  escreva("Funcionário: "  nome " "sobrenome  \n)
-  escreva("Cargo: Desenvolvedor Júnior" \n)
-  se(mes==1)
-      escreva ("Mês de referência:  Janeiro de "  anoReferencia  \n)
-      senão(mes==2) 
-        escreva("Mês de referência:  Fevereiro de " << anoReferencia \n)
-      senão(mes==3) 
-         escreva("Mês de referência:  Marco de "  anoReferencia \n)
-      senão(mes==4) 
-         escreva("Mês de referência:  Abril de "  anoReferencia \n)
-      senão(mes==5) 
-        escreva("Mês de referência:  Maio de "  anoReferencia \n)
-      senão(mes==6) 
-         escreva("Mês de referência:  Junho de "  anoReferencia \n) 
-      senão(mes==7) 
-         escreva("Mês de referência:  Julho de "  anoReferencia \n)
-      senão(mes==8) 
-         escreva("Mês de referência:  Agosto de "  anoReferencia \n)
-      senão(mes==9) 
-         escreva("Mês de referência:  Setembro de "  anoReferencia \n)
-      senão(mes==10) 
-         escreva("Mês de referência:  Outubro de "  anoReferencia \n)
-      senão(mes==11) 
-         escreva("Mês de referência:  Novembro de "  anoReferencia \n)
-      senão(mes==12) 
-         escreva("Mês de referência:  Dezembro de "  anoReferencia \n)
-    
-  escreva("\n")
-  escreva("Base de Cálculo IR......................... R$ "  baseCalculoIr \n)
-  escreva("\n")
-  escreva("1. Salário Bruto........................... R$ "  salario \n)
+  cout << "\n\n";
+  cout << "***************************************************" << endl;
+  cout << "*    ZE DAS COUVES LTDA - 72.503.000/0001-15     **" << endl;
+  cout << "***************************************************" << endl;
+  system("pause");
+  cout << "\n";
+  cout << "Funcionário: " << nome <<" "<<sobrenome << endl;
+  cout << "Cargo: Desenvolvedor Júnior" << endl;
+  if (mes==1){
+      cout << "Mês de referência:  Janeiro de " << anoReferencia << endl;
+      
+    } else if (mes==2) {
+        cout << "Mês de referência:  Fevereiro de " << anoReferencia << endl;
+        
+    } else if (mes==3) {
+        cout << "Mês de referência:  Marco de " << anoReferencia << endl;
+    } else if(mes==4) {
+        cout << "Mês de referência:  Abril de " << anoReferencia << endl;
+    } else if(mes==5) {
+        cout << "Mês de referência:  Maio de " << anoReferencia << endl;
+    } else if(mes==6) {
+        cout << "Mês de referência:  Junho de " << anoReferencia << endl;
+    } else if(mes==7) {
+        cout << "Mês de referência:  Julho de " << anoReferencia << endl;
+    } else if(mes==8) {
+        cout << "Mês de referência:  Agosto de " << anoReferencia << endl;
+    } else if(mes==9) {
+        cout << "Mês de referência:  Setembro de " << anoReferencia << endl;
+    } else if(mes==10) {
+        cout << "Mês de referência:  Outubro de " << anoReferencia << endl;
+    } else if(mes==11) {
+        cout << "Mês de referência:  Novembro de " << anoReferencia << endl;
+    } else if(mes==12) {
+        cout << "Mês de referência:  Dezembro de " << anoReferencia << endl;
+    }
+  cout << "\n";
+  cout << "Base de Cálculo IR......................... R$ " << baseCalculoIr << endl;
+  cout << "\n";
+  cout << "1. Salário Bruto........................... R$ " << salario << endl;
   // usando a biblioteca <cmath> 
-  escreva("2. (-) IR do empregado (Faixa 0"  faixaIr  ") ......... R$ "  floorf(baseCalculoIr*100)/100 \n)
-  escreva("3. (-) INSS Empregado (Alíquota "  aliquotaInss  "%)....... R$ "  inssEmpregado \n)
-  escreva("-------------------------------------------------------" \n)
-  escreva("4. = Salário Líquido....................... R$ "  salarioLiquido \n)
-  escreva("\n")
-  escreva("\n")
-  escreva("-------------------------------------------------------" \n)
-  escreva("\n")
-  escreva("Total dos Vencimentos...................... R$ "  salario \n)
+  cout << "2. (-) IR do empregado (Faixa 0" << faixaIr <<  ") ......... R$ " << floorf(baseCalculoIr*100)/100 << endl; 
+  cout << "3. (-) INSS Empregado (Alíquota " << aliquotaInss << "%)....... R$ " << inssEmpregado << endl;
+  cout << "-------------------------------------------------------" << endl;
+  cout << "4. = Salário Líquido....................... R$ " << salarioLiquido << endl;
+  cout << "\n";
+  cout << "\n";
+  cout << "-------------------------------------------------------" << endl;
+  cout << "\n";
+  cout << "Total dos Vencimentos...................... R$ " << salario << endl;
   // usando a biblioteca <cmath> 
-  escreva("Total dos Descontos........................ R$ "  floorf((irARecolher + inssEmpregado)*100)/100 \n)
-  escreva("Valor Líquido.............................. R$ "  salarioLiquido \n)
-  escreva("\n")
-  escreva("-------------------------------------------------------" \n)
-  escreva("\n")
-  escreva("Salário Base............................... R$ "  salario \n)
-  escreva("Sal. Contribuição INSS..................... R$ "  salario \n)
-  escreva("Base de Cálculo FGTS....................... R$ "  salario \n)
-  escreva("FGTS do mês................................ R$ "  fgts \n)
-  escreva("Base de Cálculo IRPF....................... R$ "  baseCalculoIr \n)
-  escreva("Faixa IRPF................................. R$ "  faixaIr \n)
-  system("pause")
+  cout << "Total dos Descontos........................ R$ " << floorf((irARecolher + inssEmpregado)*100)/100 << endl;
+  cout << "Valor Líquido.............................. R$ " << salarioLiquido << endl;
+  cout << "\n";
+  cout << "-------------------------------------------------------" << endl;
+  cout << "\n";
+  cout << "Salário Base............................... R$ " << salario << endl;
+  cout << "Sal. Contribuição INSS..................... R$ " << salario << endl;
+  cout << "Base de Cálculo FGTS....................... R$ " << salario << endl;
+  cout << "FGTS do mês................................ R$ " << fgts << endl;
+  cout << "Base de Cálculo IRPF....................... R$ " << baseCalculoIr << endl;
+  cout << "Faixa IRPF................................. R$ " << faixaIr << endl;
+  system("pause");
 }
