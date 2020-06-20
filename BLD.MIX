@@ -651,7 +651,7 @@ int quantacertos=0,quanterros=0,aleatorio=7;
 	  }
       //......................................................................................Sequencia aleatoria 5...............................................................................................
       if (aleatorio==5)
-     {cout <<"Limanada suica com gengibe";
+     {cout <<"Limanada suica com gengibe: . . .";
       cin >> c47;
            if(c47==47)
              {cout << "Resposta CERTA!!!\n";
