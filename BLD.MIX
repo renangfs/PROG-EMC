@@ -1,18 +1,18 @@
 #include <iostream>
 #include <cstdlib>
 #include <ctime>
-//
+
 using namespace std;
 
 int main()
 {//declarando as variaveis
 int c36,c37,c38,c39,c40,c53,c54,c55,c57,c60,c61,c96,c97,c34,c47;
-int quantacertos=0,quanterros=0,aleatorio=1;
+int quantacertos=0,quanterros=0,aleatorio=7;
 //gera numero aleatorio das horas 
-//     srand(time(0));
-//     aleatorio=1+(rand()%6);
+     srand(time(0));
+     aleatorio=1+(rand()%6);
      
-//     cout <<"Sequencia halfkali-Randomica:..."<<aleatorio<<endlendl;
+     cout <<"Sequencia halfkali-Randomica:..."<<aleatorio<<endl;
      //......................................................................................Sequencia aleatoria 1...............................................................................................
      if (aleatorio==1)
       {cout <<"Frutas Vermelhas com Cacau: . . .";
