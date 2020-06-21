@@ -12,7 +12,7 @@ int quantacertos=0,quanterros=0,aleatorio=7;
      srand(time(0));
      aleatorio=1+(rand()%9);
      
-     cout <<"Sequencia halfkali-Randomica:..."<<aleatorio<<endl;
+     cout <<"Sequencia semi-Randomica:..."<<aleatorio<<endlse
      //......................................................................................Sequencia aleatoria 1...............................................................................................
      if (aleatorio==1)
       {cout <<"Frutas Vermelhas com Cacau: . . .";
