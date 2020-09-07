@@ -1,0 +1,1458 @@
+#include <iostream>
+#include <cstdlib>
+#include <ctime>
+
+using namespace std;
+
+int main()
+{//declarando as variaveis
+int c36,c37,c38,c39,c40,c53,c54,c55,c57,c60,c61,c96,c97,c34,c47;
+int quantacertos=0,quanterros=0,aleatorio=0;
+//gera numero aleatorio das horas 
+     srand(time(0));
+     aleatorio=1+(rand()%9);
+ 
+ //    cout <<"Sequencia halfkali-Randomica:..."<<aleatorio<<endl;
+//......................................................................................Sequencia aleatoria 1...............................................................................................
+     cout <<"************************************************VERSION 1.5.2******************"<<endl;
+     cout <<"BALADA MIX QUIZ -----------------------------------------ATUALIZADO 07/09/2020 "<<endl;
+     cout <<"*****************VERSION 1.5.2*************************************************"<<endl;
+     cout <<"__________________________________S2___________________________________________"<<endl;
+     if (aleatorio==1)
+      {cout <<"Frutas Vermelhas com Cacau: . . .";
+      cin >> c34;
+           if(c34==34)
+             {cout << "Resposta CERTA!!!\n";
+              quantacertos=quantacertos+1;
+              cout<<"__________________Nr:1____________________\n\n";}
+          else 
+             {cout <<"Resposta ERRADA!!!\n";
+             quanterros=quanterros+1;
+             cout<<"___________________Nr:1___________________\n\n";}
+      
+	  cout <<"Abacaxi c/ hortela: . . .";
+      cin >> c96;
+	      if(c96==96)
+             {cout << "Resposta CERTA!!!\n";
+             quantacertos=quantacertos+1;
+             cout<<"__________________Nr:2____________________\n\n";}
+          else 
+             {cout <<"Resposta ERRADA!!!\n";
+             quanterros=quanterros+1;
+             cout<<"___________________Nr:2___________________\n\n";}
+             
+      cout <<"Tangirina: . . .";
+      cin >> c60;
+           if(c60==60)
+             {cout << "Resposta CERTA!!!\n";
+             quantacertos=quantacertos+1;
+             cout<<"__________________Nr:3____________________\n\n";}
+          else 
+             {cout <<"Resposta ERRADA!!!\n";
+              quanterros=quanterros+1;
+              cout<<"___________________Nr:3___________________\n\n";}
+	  cout <<"Melancia: . . .";
+      cin >> c55;
+           if(c55==55)
+             {cout <<"Resposta CERTA!!!\n";
+              quantacertos=quantacertos+1;
+              cout<<"__________________Nr:4____________________\n\n";}
+          else 
+              {cout <<"Resposta ERRADA!!!\n";
+              quanterros=quanterros+1;
+              cout<<"___________________Nr:4___________________\n\n";}
+      cout <<"Manga: . . . ";
+      cin >> c53;
+           if(c53==53)
+             {cout << "Resposta CERTA!!!\n";
+             quantacertos=quantacertos+1;
+             cout<<"__________________Nr:5____________________\n\n";}
+          else 
+             {cout <<"Resposta ERRADA!!!\n";
+             quanterros=quanterros+1;
+             cout<<"___________________Nr:5___________________\n\n";}
+	  cout <<"Acerola: . . .";
+      cin >> c39;
+           if(c39==39)
+             {cout << "Resposta CERTA!!!\n";
+             quantacertos=quantacertos+1;
+             cout<<"__________________Nr:6____________________\n\n";}
+          else 
+             {cout <<"Resposta ERRADA!!!\n";
+             quanterros=quanterros+1;
+             cout<<"___________________Nr:6___________________\n\n";}
+      cout <<"Limonada Suica: . . .";
+      cin >> c37;
+          if(c37==37)
+             {cout << "Resposta CERTA!!!\n";
+             quantacertos=quantacertos+1;
+             cout<<"__________________Nr:7____________________\n\n";}
+          else 
+             {cout <<"Resposta ERRADA!!!\n";
+             quanterros=quanterros+1;
+             cout<<"___________________Nr:7___________________\n\n";}
+	  cout <<"Limonada suica com Gengibre: . . .";
+      cin >> c47;
+           if(c47==47)
+             {cout << "Resposta CERTA!!!\n";
+              quantacertos=quantacertos+1;
+              cout<<"__________________Nr:8____________________\n\n";}
+          else 
+             {cout <<"Resposta ERRADA!!!\n";
+              quanterros=quanterros+1;
+             cout<<"___________________Nr:8___________________\n\n";}
+      cout <<"Uva com Cacau: . . .";
+      cin >> c97;
+           if(c97==97)
+             {cout << "Resposta CERTA!!!\n";
+             quantacertos=quantacertos+1;
+             cout<<"__________________Nr:9____________________\n\n";}
+           else 
+             {cout <<"Resposta ERRADA!!!\n";
+             quanterros=quanterros+1;
+             cout<<"___________________Nr:9___________________\n\n";}
+      cout <<"Uva: . . .";
+      cin >> c61;
+           if(c61==61)
+             {cout << "Resposta CERTA!!!\n";
+             quantacertos=quantacertos+1;
+             cout<<"__________________Nr:10____________________\n\n";}
+           else 
+             {cout <<"Resposta ERRADA!!!\n";
+             quanterros=quanterros+1;
+             cout<<"___________________Nr:10___________________\n\n";}
+             
+      cout <<"Morango: . . .";
+      cin >> c57;
+           if(c57==57)
+             {cout << "Resposta CERTA!!!\n";
+             quantacertos=quantacertos+1;
+             cout<<"__________________Nr:11____________________\n\n";}
+           else 
+             {cout <<"Resposta ERRADA!!!\n";
+             quanterros=quanterros+1;
+             cout<<"___________________Nr:11___________________\n\n";}
+             
+      cout <<"Maracuja: . . .";
+      cin >> c54;
+           if(c54==54)
+             {cout << "Resposta CERTA!!!\n";
+             quantacertos=quantacertos+1;
+             cout<<"__________________Nr:12____________________\n\n";}
+           else 
+             {cout <<"Resposta ERRADA!!!\n";
+             quanterros=quanterros+1;
+             cout<<"___________________Nr:12___________________\n\n";}
+      cout <<"Frutas Vermelhas: . . .";
+      cin >> c40;
+           if(c40==40)
+             {cout << "Resposta CERTA!!!\n";
+             quantacertos=quantacertos+1;
+             cout<<"__________________Nr:13____________________\n\n";}
+           else 
+             {cout <<"Resposta ERRADA!!!\n";
+             quanterros=quanterros+1;
+             cout<<"___________________Nr:13___________________\n\n";}
+      cout <<"Abacaxi: . . .";
+      cin >> c38;
+           if(c38==38)
+             {cout << "Resposta CERTA!!!\n";
+             quantacertos=quantacertos+1;
+             cout<<"__________________Nr:13____________________\n\n";}
+           else 
+             {cout <<"Resposta ERRADA!!!\n";
+             quanterros=quanterros+1;
+             cout<<"___________________Nr:13___________________\n\n";}
+             cout <<"Laranja: . . .";
+      cin >> c36;
+           if(c36==36)
+             {cout << "Resposta CERTA!!!\n";
+             quantacertos=quantacertos+1;
+             cout<<"__________________Nr:13____________________\n\n";}
+           else 
+             {cout <<"Resposta ERRADA!!!\n";
+             quanterros=quanterros+1;
+             cout<<"___________________Nr:13___________________\n\n";}
+	  }
+      
+      //......................................................................................Sequencia aleatoria 2...............................................................................................
+     if (aleatorio==2)
+      {cout <<"Limonada Suica: . . .";
+      cin >> c37;
+           if(c37==37)
+             {cout << "Resposta CERTA!!!\n";
+              quantacertos=quantacertos+1;
+              cout<<"__________________Nr:1____________________\n\n";}
+          else 
+             {cout <<"Resposta ERRADA!!!\n";
+             quanterros=quanterros+1;
+             cout<<"___________________Nr:2___________________\n\n";}
+      
+	  cout <<"Acerola: . . .";
+      cin >> c39;
+	      if(c39==30)
+             {cout << "Resposta CERTA!!!\n";
+             quantacertos=quantacertos+1;
+             cout<<"__________________Nr:1____________________\n\n";}
+          else 
+             {cout <<"Resposta ERRADA!!!\n";
+             quanterros=quanterros+1;
+             cout<<"___________________Nr:2___________________\n\n";}
+             
+      cout <<"Manga: . . .";
+      cin >> c53;
+           if(c53==53)
+             {cout << "Resposta CERTA!!!\n";
+             quantacertos=quantacertos+1;
+             cout<<"__________________Nr:1____________________\n\n";}
+          else 
+             {cout <<"Resposta ERRADA!!!\n";
+              quanterros=quanterros+1;
+              cout<<"___________________Nr:2___________________\n\n";}
+	  cout <<"Melancia: . . .";
+      cin >> c55;
+           if(c55==55)
+             {cout << "Resposta CERTA!!!\n";
+              quantacertos=quantacertos+1;
+              cout<<"__________________Nr:1____________________\n\n";}
+          else 
+              {cout <<"Resposta ERRADA!!!\n";
+              quanterros=quanterros+1;
+              cout<<"___________________Nr:2___________________\n\n";}
+      cout <<"Tangerina: . . .";
+      cin >> c60;
+           if(c60==60)
+             {cout << "Resposta CERTA!!!\n";
+             quantacertos=quantacertos+1;
+             cout<<"__________________Nr:1____________________\n\n";}
+          else 
+             {cout <<"Resposta ERRADA!!!\n";
+             quanterros=quanterros+1;
+             cout<<"___________________Nr:2___________________\n\n";}
+	  cout <<"Abacaxi com Hortela: . . .";
+      cin >> c96;
+           if(c96==96)
+             {cout << "Resposta CERTA!!!\n";
+             quantacertos=quantacertos+1;
+             cout<<"__________________Nr:1____________________\n\n";}
+          else 
+             {cout <<"Resposta ERRADA!!!\n";
+             quanterros=quanterros+1;
+             cout<<"___________________Nr:2___________________\n\n";}
+      cout <<"Frutas Vermelhas c/cacau: . . .";
+      cin >> c34;
+          if(c34==34)
+             {cout << "Resposta CERTA!!!\n";
+             quantacertos=quantacertos+1;
+             cout<<"__________________Nr:1____________________\n\n";}
+          else 
+             {cout <<"Resposta ERRADA!!!\n";
+             quanterros=quanterros+1;
+             cout<<"___________________Nr:2___________________\n\n";}
+	  cout <<"Laranja: . . .";
+      cin >> c36;
+           if(c36==36)
+             {cout << "Resposta CERTA!!!\n";
+              quantacertos=quantacertos+1;
+              cout<<"__________________Nr:1____________________\n\n";}
+          else 
+             {cout <<"Resposta ERRADA!!!\n";
+              quanterros=quanterros+1;
+             cout<<"___________________Nr:2___________________\n\n";}
+      cout <<"Abacaxi: . . .";
+      cin >> c38;
+           if(c38==38)
+             {cout << "Resposta CERTA!!!\n";
+             quantacertos=quantacertos+1;
+             cout<<"__________________Nr:1____________________\n\n";}
+           else 
+             {cout <<"Resposta ERRADA!!!\n";
+             quanterros=quanterros+1;
+             cout<<"___________________Nr:2___________________\n\n";}
+      cout <<"Frutas vermelhas: . . .";
+      cin >> c40;
+           if(c40==40)
+             {cout << "Resposta CERTA!!!\n";
+             quantacertos=quantacertos+1;
+             cout<<"__________________Nr:1____________________\n\n";}
+           else 
+             {cout <<"Resposta ERRADA!!!\n";
+             quanterros=quanterros+1;
+             cout<<"___________________Nr:2___________________\n\n";}
+      cout <<"Maracuja: . . .";
+      cin >> c54;
+           if(c54==54)
+             {cout << "Resposta CERTA!!!\n";
+             quantacertos=quantacertos+1;
+             cout<<"__________________Nr:1____________________\n\n";}
+           else 
+             {cout <<"Resposta ERRADA!!!\n";
+             quanterros=quanterros+1;
+             cout<<"___________________Nr:2___________________\n\n";}
+      cout <<"Morango: . . .";
+      cin >> c57;
+           if(c57==57)
+             {cout << "Resposta CERTA!!!\n";
+             quantacertos=quantacertos+1;
+             cout<<"__________________Nr:1____________________\n\n";}
+           else 
+             {cout <<"Resposta ERRADA!!!\n";
+             quanterros=quanterros+1;
+             cout<<"___________________Nr:2___________________\n\n";}
+      cout <<"Uva: . . .";
+      cin >> c61;
+           if(c61==61)
+             {cout << "Resposta CERTA!!!\n";
+             quantacertos=quantacertos+1;
+             cout<<"__________________Nr:1____________________\n\n";}
+           else 
+             {cout <<"Resposta ERRADA!!!\n";
+             quanterros=quanterros+1;
+             cout<<"___________________Nr:2___________________\n\n";}
+      cout <<"Uva com cacau: . . .";
+      cin >> c97;
+           if(c97==97)
+             {cout << "Resposta CERTA!!!\n";
+             quantacertos=quantacertos+1;
+             cout<<"__________________Nr:1____________________\n\n";}
+           else 
+             {cout <<"Resposta ERRADA!!!\n";
+             quanterros=quanterros+1;
+	  cout<<"___________________Nr:2___________________\n\n";}
+      cout <<"Limonada suica com Hortela e Gengibre: . . .";
+      cin >> c47;
+           if(c47==47)
+             {cout << "Resposta CERTA!!!\n";
+             quantacertos=quantacertos+1;
+             cout<<"__________________Nr:1____________________\n\n";}
+           else 
+             {cout <<"Resposta ERRADA!!!\n";
+             quanterros=quanterros+1;
+             cout<<"___________________Nr:2___________________\n\n";}
+	  }
+      //......................................................................................Sequencia aleatoria 3...............................................................................................
+      if (aleatorio==3)
+     {cout <<"Uva com cacau: . . .";
+      cin >> c97;
+           if(c97==97)
+             {cout << "Resposta CERTA!!!\n";
+              quantacertos=quantacertos+1;
+              cout<<"__________________Nr:1____________________\n\n";}
+          else 
+             {cout <<"Resposta ERRADA!!!\n";
+             quanterros=quanterros+1;
+             cout<<"___________________Nr:2___________________\n\n";}
+      
+	  cout <<"Tangerina: . . .";
+      cin >> c60;
+	      if(c60==60)
+             {cout << "Resposta CERTA!!!\n";
+             quantacertos=quantacertos+1;
+             cout<<"__________________Nr:1____________________\n\n";}
+          else 
+             {cout <<"Resposta ERRADA!!!\n";
+             quanterros=quanterros+1;
+             cout<<"___________________Nr:2___________________\n\n";}
+             
+      cout <<"Maracuja: . . .";
+      cin >> c54;
+           if(c54==54)
+             {cout << "Resposta CERTA!!!\n";
+             quantacertos=quantacertos+1;
+             cout<<"__________________Nr:1____________________\n\n";}
+          else 
+             {cout <<"Resposta ERRADA!!!\n";
+              quanterros=quanterros+1;
+              cout<<"___________________Nr:2___________________\n\n";}
+	  cout <<"Acerola: . . .";
+      cin >> c39;
+           if(c39==39)
+             {cout << "Resposta CERTA!!!\n";
+              quantacertos=quantacertos+1;
+              cout<<"__________________Nr:1____________________\n\n";}
+          else 
+              {cout <<"Resposta ERRADA!!!\n";
+              quanterros=quanterros+1;
+              cout<<"___________________Nr:2___________________\n\n";}
+      cout <<"Laranja: . . .";
+      cin >> c36;
+           if(c36==36)
+             {cout << "Resposta CERTA!!!\n";
+             quantacertos=quantacertos+1;
+             cout<<"__________________Nr:1____________________\n\n";}
+          else 
+             {cout <<"Resposta ERRADA!!!\n";
+             quanterros=quanterros+1;
+             cout<<"___________________Nr:2___________________\n\n";}
+	  cout <<"Abacaxi com Hortela: . . .";
+      cin >> c96;
+           if(c96==96)
+             {cout << "Resposta CERTA!!!\n";
+             quantacertos=quantacertos+1;
+             cout<<"__________________Nr:1____________________\n\n";}
+          else 
+             {cout <<"Resposta ERRADA!!!\n";
+             quanterros=quanterros+1;
+             cout<<"___________________Nr:2___________________\n\n";}
+      cout <<"Morango: . . .";
+      cin >> c57;
+          if(c57==57)
+             {cout << "Resposta CERTA!!!\n";
+             quantacertos=quantacertos+1;
+             cout<<"__________________Nr:1____________________\n\n";}
+          else 
+             {cout <<"Resposta ERRADA!!!\n";
+             quanterros=quanterros+1;
+             cout<<"___________________Nr:2___________________\n\n";}
+	  cout <<"Manga: . . .";
+      cin >> c53;
+           if(c53==c53)
+             {cout << "Resposta CERTA!!!\n";
+              quantacertos=quantacertos+1;
+              cout<<"__________________Nr:1____________________\n\n";}
+          else 
+             {cout <<"Resposta ERRADA!!!\n";
+              quanterros=quanterros+1;
+             cout<<"___________________Nr:2___________________\n\n";}
+      cout <<"Abacaxi: . . .";
+      cin >> c38;
+           if(c38==38)
+             {cout << "Resposta CERTA!!!\n";
+             quantacertos=quantacertos+1;
+             cout<<"__________________Nr:1____________________\n\n";}
+           else 
+             {cout <<"Resposta ERRADA!!!\n";
+             quanterros=quanterros+1;
+             cout<<"___________________Nr:2___________________\n\n";}
+             
+      cout <<"Limonada suiça com gengibre: . . .";
+      cin >> c47;
+           if(c47==47)
+             {cout << "Resposta CERTA!!!\n";
+             quantacertos=quantacertos+1;
+             cout<<"__________________Nr:1____________________\n\n";}
+           else 
+             {cout <<"Resposta ERRADA!!!\n";
+             quanterros=quanterros+1;
+             cout<<"___________________Nr:2___________________\n\n";}
+      cout <<"Uva: . . .";
+      cin >> c61;
+           if(c61==61)
+             {cout << "Resposta CERTA!!!\n";
+             quantacertos=quantacertos+1;
+             cout<<"__________________Nr:1____________________\n\n";}
+           else 
+             {cout <<"Resposta ERRADA!!!\n";
+             quanterros=quanterros+1;
+             cout<<"___________________Nr:2___________________\n\n";}
+      cout <<"Melancia: . . .";
+      cin >> c55;
+           if(c55==55)
+             {cout << "Resposta CERTA!!!\n";
+             quantacertos=quantacertos+1;
+             cout<<"__________________Nr:1____________________\n\n";}
+           else 
+             {cout <<"Resposta ERRADA!!!\n";
+             quanterros=quanterros+1;
+             cout<<"___________________Nr:2___________________\n\n";}
+      cout <<"Frutas Vermelhas: . . .";
+      cin >> c40;
+           if(c40==40)
+             {cout << "Resposta CERTA!!!\n";
+             quantacertos=quantacertos+1;
+             cout<<"__________________Nr:1____________________\n\n";}
+           else 
+             {cout <<"Resposta ERRADA!!!\n";
+             quanterros=quanterros+1;
+             cout<<"___________________Nr:2___________________\n\n";}
+      cout <<"Limonada suiça: . . .";
+      cin >> c37;
+           if(c37==37)
+             {cout << "Resposta CERTA!!!\n";
+             quantacertos=quantacertos+1;
+             cout<<"__________________Nr:1____________________\n\n";}
+           else 
+             {cout <<"Resposta ERRADA!!!\n";
+             quanterros=quanterros+1;
+             cout<<"___________________Nr:2___________________\n\n";}
+      cout <<"Frutas vermelhas com cacau: . . .";
+      cin >> c34;
+           if(c34==34)
+             {cout << "Resposta CERTA!!!\n";
+             quantacertos=quantacertos+1;
+             cout<<"__________________Nr:1____________________\n\n";}
+           else 
+             {cout <<"Resposta ERRADA!!!\n";
+             quanterros=quanterros+1;
+             cout<<"___________________Nr:2___________________\n\n";}
+	  }
+      //......................................................................................Sequencia aleatoria 4...............................................................................................
+      if (aleatorio==4)
+     {cout <<"Abacaxi: . . .";
+      cin >> c38;
+           if(c38==38)
+             {cout << "Resposta CERTA!!!\n";
+              quantacertos=quantacertos+1;
+              cout<<"__________________Nr:1____________________\n\n";}
+          else 
+             {cout <<"Resposta ERRADA!!!\n";
+             quanterros=quanterros+1;
+             cout<<"___________________Nr:1___________________\n\n";}
+      
+	  cout <<"Manga: . . .";
+      cin >> c53;
+	      if(c53==53)
+             {cout << "Resposta CERTA!!!\n";
+             quantacertos=quantacertos+1;
+             cout<<"__________________Nr:2____________________\n\n";}
+          else 
+             {cout <<"Resposta ERRADA!!!\n";
+             quanterros=quanterros+1;
+             cout<<"___________________Nr:2___________________\n\n";}
+             
+      cout <<"Morango: . . .";
+      cin >> c57;
+           if(c57==57)
+             {cout << "Resposta CERTA!!!\n";
+             quantacertos=quantacertos+1;
+             cout<<"__________________Nr:3____________________\n\n";}
+          else 
+             {cout <<"Resposta ERRADA!!!\n";
+              quanterros=quanterros+1;
+              cout<<"___________________Nr:3___________________\n\n";}
+	  cout << "Abacaxi com hortela";
+      cin >> c96;
+           if(c96==96)
+             {cout << "Resposta CERTA!!!\n";
+              quantacertos=quantacertos+1;
+              cout<<"__________________Nr:4____________________\n\n";}
+          else 
+              {cout <<"Resposta ERRADA!!!\n";
+              quanterros=quanterros+1;
+              cout<<"___________________Nr:4___________________\n\n";}
+      cout <<"Limonada suica com hortela e gemgibre";
+      cin >> c47;
+           if(c47==47)
+             {cout << "Resposta CERTA!!!\n";
+             quantacertos=quantacertos+1;
+             cout<<"__________________Nr:5____________________\n\n";}
+          else 
+             {cout <<"Resposta ERRADA!!!\n";
+             quanterros=quanterros+1;
+             cout<<"___________________Nr:5___________________\n\n";}
+	  cout <<"Abacaxi com hortela: . . .";
+      cin >> c96;
+           if(c96==96)
+             {cout << "Resposta CERTA!!!\n";
+             quantacertos=quantacertos+1;
+             cout<<"__________________Nr:6____________________\n\n";}
+          else 
+             {cout <<"Resposta ERRADA!!!\n";
+             quanterros=quanterros+1;
+             cout<<"___________________Nr:6___________________\n\n";}
+      cout <<"Limonada suica com gengibre: . . .";
+      cin >> c47;
+          if(c47==47)
+             {cout << "Resposta CERTA!!!\n";
+             quantacertos=quantacertos+1;
+             cout<<"__________________Nr:7____________________\n\n";}
+          else 
+             {cout <<"Resposta ERRADA!!!\n";
+             quanterros=quanterros+1;
+             cout<<"___________________Nr:7___________________\n\n";}
+	  cout <<"Laranja: . . .";
+      cin >> c36;
+           if(c36==36)
+             {cout << "Resposta CERTA!!!\n";
+              quantacertos=quantacertos+1;
+              cout<<"__________________Nr:8____________________\n\n";}
+          else 
+             {cout <<"Resposta ERRADA!!!\n";
+              quanterros=quanterros+1;
+             cout<<"___________________Nr:8___________________\n\n";}
+      cout <<"Acerola: . . .";
+      cin >> c39;
+           if(c39==39)
+             {cout << "Resposta CERTA!!!\n";
+             quantacertos=quantacertos+1;
+             cout<<"__________________Nr:9____________________\n\n";}
+           else 
+             {cout <<"Resposta ERRADA!!!\n";
+             quanterros=quanterros+1;
+             cout<<"___________________Nr:9___________________\n\n";}
+      cout <<"Maracuja: . . .";
+      cin >> c54;
+           if(c54==54)
+             {cout << "Resposta CERTA!!!\n";
+             quantacertos=quantacertos+1;
+             cout<<"__________________Nr:10___________________\n\n";}
+           else 
+             {cout <<"Resposta ERRADA!!!\n";
+             quanterros=quanterros+1;
+             cout<<"___________________Nr:10__________________\n\n";}
+      cout <<"Tangirina: . . .";
+      cin >> c60;
+           if(c60==60)
+             {cout << "Resposta CERTA!!!\n";
+             quantacertos=quantacertos+1;
+             cout<<"__________________Nr:11___________________\n\n";}
+           else 
+             {cout <<"Resposta ERRADA!!!\n";
+             quanterros=quanterros+1;
+             cout<<"___________________Nr:11_______________\n\n";}
+      cout <<"Uva com cacau: . . .";
+      cin >> c97;
+           if(c97==97)
+             {cout << "Resposta CERTA!!!\n";
+             quantacertos=quantacertos+1;
+             cout<<"__________________Nr:12___________________\n\n";}
+           else 
+             {cout <<"Resposta ERRADA!!!\n";
+             quanterros=quanterros+1;
+             cout<<"___________________Nr:12__________________\n\n";}
+      cout <<"Limonada suica: . . .";
+      cin >> c37;
+           if(c37==37)
+             {cout << "Resposta CERTA!!!\n";
+             quantacertos=quantacertos+1;
+             cout<<"__________________Nr:13___________________\n\n";}
+           else 
+             {cout <<"Resposta ERRADA!!!\n";
+             quanterros=quanterros+1;
+             cout<<"___________________Nr:13__________________\n\n";}
+      cout <<"Frutas Vermelhas: . . .";
+      cin >> c40;
+           if(c40==40)
+             {cout << "Resposta CERTA!!!\n";
+             quantacertos=quantacertos+1;
+             cout<<"__________________Nr:14___________________\n\n";}
+           else 
+             {cout <<"Resposta ERRADA!!!\n";
+             quanterros=quanterros+1;
+             cout<<"___________________Nr:14__________________\n\n";}
+      cout <<"Melancia: . . .";
+      cin >> c55;
+           if(c55==55)
+             {cout << "Resposta CERTA!!!\n";
+             quantacertos=quantacertos+1;
+             cout<<"__________________Nr:15___________________\n\n";}
+           else 
+             {cout <<"Resposta ERRADA!!!\n";
+             quanterros=quanterros+1;
+             cout<<"___________________Nr:15_________________\n\n";}
+      cout <<"Uva: . . .";
+      cin >> c61;
+           if(c61==61)
+             {cout << "Resposta CERTA!!!\n";
+             quantacertos=quantacertos+1;
+             cout<<"__________________Nr:1____________________\n\n";}
+           else 
+             {cout <<"Resposta ERRADA!!!\n";
+             quanterros=quanterros+1;
+             cout<<"___________________Nr:2___________________\n\n";}
+      cout <<"Frutas vermelhas com cacau: . . .";
+      
+	  }
+      //......................................................................................Sequencia aleatoria 5...............................................................................................
+      if (aleatorio==5)
+     {cout <<"Limanada suica com gengibe: . . . ";
+      cin >> c47;
+           if(c47==47)
+             {cout << "Resposta CERTA!!!\n";
+              quantacertos=quantacertos+1;
+              cout<<"__________________Nr:1____________________\n\n";}
+          else 
+             {cout <<"Resposta ERRADA!!!\n";
+             quanterros=quanterros+1;
+             cout<<"___________________Nr:2___________________\n\n";}
+      
+	  cout <<"Tangirina: . . . ";
+      cin >> c60;
+	      if(c60==60)
+             {cout << "Resposta CERTA!!!\n";
+             quantacertos=quantacertos+1;
+             cout<<"__________________Nr:1____________________\n\n";}
+          else 
+             {cout <<"Resposta ERRADA!!!\n";
+             quanterros=quanterros+1;
+             cout<<"___________________Nr:2___________________\n\n";}
+             
+      cout <<"acerola: . . .";
+      cin >>c39;
+           if(c39==39)
+             {cout << "Resposta CERTA!!!\n";
+             quantacertos=quantacertos+1;
+             cout<<"__________________Nr:1____________________\n\n";}
+          else 
+             {cout <<"Resposta ERRADA!!!\n";
+              quanterros=quanterros+1;
+              cout<<"___________________Nr:2___________________\n\n";}
+	  cout <<"frutas vermelhas com cacau: . . .";
+      cin >> c34;
+           if(c34==34)
+             {cout << "Resposta CERTA!!!\n";
+              quantacertos=quantacertos+1;
+              cout<<"__________________Nr:1____________________\n\n";}
+          else 
+              {cout <<"Resposta ERRADA!!!\n";
+              quanterros=quanterros+1;
+              cout<<"___________________Nr:2___________________\n\n";}
+      cout <<"Morango: . . .";
+      cin >>c57;
+           if(c57==57)
+             {cout << "Resposta CERTA!!!\n";
+             quantacertos=quantacertos+1;
+             cout<<"__________________Nr:1____________________\n\n";}
+          else 
+             {cout <<"Resposta ERRADA!!!\n";
+             quanterros=quanterros+1;
+             cout<<"___________________Nr:2___________________\n\n";}
+	  cout <<"Abacaxi: . . . ";
+      cin >> c38;
+           if(c38==38)
+             {cout << "Resposta CERTA!!!\n";
+             quantacertos=quantacertos+1;
+             cout<<"__________________Nr:1____________________\n\n";}
+          else 
+             {cout <<"Resposta ERRADA!!!\n";
+             quanterros=quanterros+1;
+             cout<<"___________________Nr:2___________________\n\n";}
+      cout <<"Uva com cacau: . . .";
+      cin >> c97;
+          if(c97==97)
+             {cout << "Resposta CERTA!!!\n";
+             quantacertos=quantacertos+1;
+             cout<<"__________________Nr:1____________________\n\n";}
+          else 
+             {cout <<"Resposta ERRADA!!!\n";
+             quanterros=quanterros+1;
+             cout<<"___________________Nr:2___________________\n\n";}
+	  cout <<"Melancia: . . .";
+      cin >> c55;
+           if(c55==55)
+             {cout << "Resposta CERTA!!!\n";
+              quantacertos=quantacertos+1;
+              cout<<"__________________Nr:1____________________\n\n";}
+          else 
+             {cout <<"Resposta ERRADA!!!\n";
+              quanterros=quanterros+1;
+             cout<<"___________________Nr:2___________________\n\n";}
+      cout <<"Limonada suica: . . . ";
+      cin >> c37;
+           if(c37==37)
+             {cout << "Resposta CERTA!!!\n";
+             quantacertos=quantacertos+1;
+             cout<<"__________________Nr:1____________________\n\n";}
+           else 
+             {cout <<"Resposta ERRADA!!!\n";
+             quanterros=quanterros+1;
+             cout<<"___________________Nr:2___________________\n\n";}
+      cout <<"Abacaxi com hortela: . . . ";
+      cin >> c96;
+           if(c96==96)
+             {cout << "Resposta CERTA!!!\n";
+             quantacertos=quantacertos+1;
+             cout<<"__________________Nr:1____________________\n\n";}
+           else 
+             {cout <<"Resposta ERRADA!!!\n";
+             quanterros=quanterros+1;
+             cout<<"___________________Nr:2___________________\n\n";}
+      cout <<"Maracuja: . . .";
+      cin >> c37;
+           if(c37==37)
+             {cout << "Resposta CERTA!!!\n";
+             quantacertos=quantacertos+1;
+             cout<<"__________________Nr:1____________________\n\n";}
+           else 
+             {cout <<"Resposta ERRADA!!!\n";
+             quanterros=quanterros+1;
+             cout<<"___________________Nr:2___________________\n\n";}
+     cout <<"Laranja: . . . ";
+      cin >> c36;
+           if(c36==36)
+             {cout << "Resposta CERTA!!!\n";
+             quantacertos=quantacertos+1;
+             cout<<"__________________Nr:1____________________\n\n";}
+           else 
+             {cout <<"Resposta ERRADA!!!\n";
+             quanterros=quanterros+1;
+             cout<<"___________________Nr:2___________________\n\n";}
+      cout <<"Uva: . . . ";
+      cin >> c61;
+           if(c61==61)
+             {cout << "Resposta CERTA!!!\n";
+             quantacertos=quantacertos+1;
+             cout<<"__________________Nr:1____________________\n\n";}
+           else 
+             {cout <<"Resposta ERRADA!!!\n";
+             quanterros=quanterros+1;
+             cout<<"___________________Nr:2___________________\n\n";}
+      cout <<"Manga: . . . ";
+      cin >> c53;
+           if(c53==53)
+             {cout << "Resposta CERTA!!!\n";
+             quantacertos=quantacertos+1;
+             cout<<"__________________Nr:1____________________\n\n";}
+           else 
+             {cout <<"Resposta ERRADA!!!\n";
+             quanterros=quanterros+1;
+             cout<<"___________________Nr:2___________________\n\n";}
+		cout <<"Frutas Vermelhas : . . .";
+      cin >> c40;
+           if(c40==40)
+             {cout << "Resposta CERTA!!!\n";
+             quantacertos=quantacertos+1;
+             cout<<"__________________Nr:1____________________\n\n";}
+           else 
+             {cout <<"Resposta ERRADA!!!\n";
+             quanterros=quanterros+1;
+             cout<<"___________________Nr:2___________________\n\n";}
+	  }
+      
+      //......................................................................................Sequencia aleatoria 6...............................................................................................
+      if (aleatorio==6)
+     {cout <<"Manga: . . .";
+      cin >> c53;
+           if(c53==53)
+             {cout << "Resposta CERTA!!!\n";
+              quantacertos=quantacertos+1;
+              cout<<"__________________Nr:1____________________\n\n";}
+          else 
+             {cout <<"Resposta ERRADA!!!\n";
+             quanterros=quanterros+1;
+             cout<<"___________________Nr:1___________________\n\n";}
+      
+	  cout <<"Abacaxi com Hortela: . . .";
+      cin >> c97;
+	      if(c97==97)
+             {cout << "Resposta CERTA!!!\n";
+             quantacertos=quantacertos+1;
+             cout<<"__________________Nr:2____________________\n\n";}
+          else 
+             {cout <<"Resposta ERRADA!!!\n";
+             quanterros=quanterros+1;
+             cout<<"___________________Nr:2___________________\n\n";}
+             
+      cout <<"Abacaxi: . . .";
+      cin >> c38;
+           if(c38==38)
+             {cout << "Resposta CERTA!!!\n";
+             quantacertos=quantacertos+1;
+             cout<<"__________________Nr:3____________________\n\n";}
+          else 
+             {cout <<"Resposta ERRADA!!!\n";
+              quanterros=quanterros+1;
+              cout<<"___________________Nr:3___________________\n\n";}
+	  cout <<"Melancia: . . .";
+      cin >> c55;
+           if(c55==55)
+             {cout << "Resposta CERTA!!!\n";
+              quantacertos=quantacertos+1;
+              cout<<"__________________Nr:4____________________\n\n";}
+          else 
+              {cout <<"Resposta ERRADA!!!\n";
+              quanterros=quanterros+1;
+              cout<<"___________________Nr:4___________________\n\n";}
+      cout <<"Uva com cacau: . . . ";
+      cin >> c97;
+           if(c97==97)
+             {cout << "Resposta CERTA!!!\n";
+             quantacertos=quantacertos+1;
+             cout<<"__________________Nr:5____________________\n\n";}
+          else 
+             {cout <<"Resposta ERRADA!!!\n";
+             quanterros=quanterros+1;
+             cout<<"___________________Nr:5___________________\n\n";}
+	  cout <<"Acerola: . . .";
+      cin >> c39;
+           if(c39==39)
+             {cout << "Resposta CERTA!!!\n";
+             quantacertos=quantacertos+1;
+             cout<<"__________________Nr:6____________________\n\n";}
+          else 
+             {cout <<"Resposta ERRADA!!!\n";
+             quanterros=quanterros+1;
+             cout<<"___________________Nr:6___________________\n\n";}
+      cout <<"Tangirina: . . .";
+      cin >> c60;
+          if(c60==60)
+             {cout << "Resposta CERTA!!!\n";
+             quantacertos=quantacertos+1;
+             cout<<"__________________Nr7___________________\n\n";}
+          else 
+             {cout <<"Resposta ERRADA!!!\n";
+             quanterros=quanterros+1;
+             cout<<"___________________Nr:7_________________\n\n";}
+	  cout <<"Limonada suica com gengibre: . . .";
+      cin >> c47;
+           if(c47==47)
+             {cout << "Resposta CERTA!!!\n";
+              quantacertos=quantacertos+1;
+              cout<<"__________________Nr:8____________________\n\n";}
+          else 
+             {cout <<"Resposta ERRADA!!!\n";
+              quanterros=quanterros+1;
+             cout<<"___________________Nr:8___________________\n\n";}
+      cout <<"Laranja: . . .";
+      cin >> c36;
+           if(c36==36)
+             {cout << "Resposta CERTA!!!\n";
+             quantacertos=quantacertos+1;
+             cout<<"__________________Nr:9____________________\n\n";}
+           else 
+             {cout <<"Resposta ERRADA!!!\n";
+             quanterros=quanterros+1;
+             cout<<"___________________Nr:9__________________\n\n";}
+      cout <<"Laranja: . . .";
+      cin >> c36;
+           if(c36==36)
+             {cout << "Resposta CERTA!!!\n";
+             quantacertos=quantacertos+1;
+             cout<<"__________________Nr:10___________________\n\n";}
+           else 
+             {cout <<"Resposta ERRADA!!!\n";
+             quanterros=quanterros+1;
+             cout<<"___________________Nr:10__________________\n\n";}
+      cout <<"Frutras Vermelhas: . . .";
+      cin >> c40;
+           if(c40==40)
+             {cout << "Resposta CERTA!!!\n";
+             quantacertos=quantacertos+1;
+             cout<<"__________________Nr:11___________________\n\n";}
+           else 
+             {cout <<"Resposta ERRADA!!!\n";
+             quanterros=quanterros+1;
+             cout<<"___________________Nr:11__________________\n\n";}
+      cout <<"Maracuja: . . . ";
+      cin >> c54;
+           if(c54==54)
+             {cout << "Resposta CERTA!!!\n";
+             quantacertos=quantacertos+1;
+             cout<<"__________________Nr:12___________________\n\n";}
+           else 
+             {cout <<"Resposta ERRADA!!!\n";
+             quanterros=quanterros+1;
+             cout<<"___________________Nr:12__________________\n\n";}
+     cout <<"Uva: . . . ";
+      cin >> c61;
+           if(c61==61)
+             {cout << "Resposta CERTA!!!\n";
+             quantacertos=quantacertos+1;
+             cout<<"__________________Nr:13___________________\n\n";}
+           else 
+             {cout <<"Resposta ERRADA!!!\n";
+             quanterros=quanterros+1;
+             cout<<"___________________Nr:13_________________\n\n";}
+      cout <<"Frutas vermelhas com cacau: . . .";
+      cin >> c61;
+           if(c61==61)
+             {cout << "Resposta CERTA!!!\n";
+             quantacertos=quantacertos+1;
+             cout<<"__________________Nr:13___________________\n\n";}
+           else 
+             {cout <<"Resposta ERRADA!!!\n";
+             quanterros=quanterros+1;
+             cout<<"___________________Nr:13__________________\n\n";}
+      cout <<"Limonada suica: . . . ";
+      cin >> c37;
+           if(c37==37)
+             {cout << "Resposta CERTA!!!\n";
+             quantacertos=quantacertos+1;
+             cout<<"__________________Nr:14__________________\n\n";}
+           else 
+             {cout <<"Resposta ERRADA!!!\n";
+             quanterros=quanterros+1;
+             cout<<"___________________Nr:14__________________\n\n";}
+      cout <<"Morango: . . . ";
+      cin >> c57;
+           if(c57==57)
+             {cout << "Resposta CERTA!!!\n";
+             quantacertos=quantacertos+1;
+             cout<<"__________________Nr:15__________________\n\n";}
+           else 
+             {cout <<"Resposta ERRADA!!!\n";
+             quanterros=quanterros+1;
+             cout<<"___________________Nr:15__________________\n\n";}
+	  }
+	  
+	  
+	  //......................................................................................Sequencia aleatoria 7...............................................................................................
+	  if (aleatorio==7)
+     {cout <<"Laranja: . . .";
+      cin >> c36;
+           if(c36==36)
+             {cout << "Resposta CERTA!!!\n";
+              quantacertos=quantacertos+1;
+              cout<<"__________________Nr:1____________________\n\n";}
+          else 
+             {cout <<"Resposta ERRADA!!!\n";
+             quanterros=quanterros+1;
+             cout<<"___________________Nr:1___________________\n\n";}
+      
+	  cout <<"Melancia: . . .";
+      cin >> c55;
+	      if(c55==55)
+             {cout << "Resposta CERTA!!!\n";
+             quantacertos=quantacertos+1;
+             cout<<"__________________Nr:2____________________\n\n";}
+          else 
+             {cout <<"Resposta ERRADA!!!\n";
+             quanterros=quanterros+1;
+             cout<<"___________________Nr:2___________________\n\n";}
+             
+      cout <<"Morango: . . .";
+      cin >> c57;
+           if(c57==57)
+             {cout << "Resposta CERTA!!!\n";
+             quantacertos=quantacertos+1;
+             cout<<"__________________Nr:3____________________\n\n";}
+          else 
+             {cout <<"Resposta ERRADA!!!\n";
+              quanterros=quanterros+1;
+              cout<<"___________________Nr:3___________________\n\n";}
+	  cout <<"Limonada suica: . . .";
+      cin >> c37;
+           if(c37==37)
+             {cout << "Resposta CERTA!!!\n";
+              quantacertos=quantacertos+1;
+              cout<<"__________________Nr:4____________________\n\n";}
+          else 
+              {cout <<"Resposta ERRADA!!!\n";
+              quanterros=quanterros+1;
+              cout<<"___________________Nr:4___________________\n\n";}
+      cout <<"Tangirina: . . . ";
+      cin >> c60;
+           if(c60==60)
+             {cout << "Resposta CERTA!!!\n";
+             quantacertos=quantacertos+1;
+             cout<<"__________________Nr:5____________________\n\n";}
+          else 
+             {cout <<"Resposta ERRADA!!!\n";
+             quanterros=quanterros+1;
+             cout<<"___________________Nr:5___________________\n\n";}
+	  cout <<"Abacaxi: . . .";
+      cin >> c38;
+           if(c38==38)
+             {cout << "Resposta CERTA!!!\n";
+             quantacertos=quantacertos+1;
+             cout<<"__________________Nr:6____________________\n\n";}
+          else 
+             {cout <<"Resposta ERRADA!!!\n";
+             quanterros=quanterros+1;
+             cout<<"___________________Nr:6___________________\n\n";}
+      cout <<"Uva: . . .";
+      cin >> c61;
+          if(c61==61)
+             {cout << "Resposta CERTA!!!\n";
+             quantacertos=quantacertos+1;
+             cout<<"__________________Nr7___________________\n\n";}
+          else 
+             {cout <<"Resposta ERRADA!!!\n";
+             quanterros=quanterros+1;
+             cout<<"___________________Nr:7_______________\n\n";}
+	  cout <<"Acerola: . . .";
+      cin >> c39;
+           if(c39==39)
+             {cout << "Resposta CERTA!!!\n";
+              quantacertos=quantacertos+1;
+              cout<<"__________________Nr:8____________________\n\n";}
+          else 
+             {cout <<"Resposta ERRADA!!!\n";
+              quanterros=quanterros+1;
+             cout<<"___________________Nr:8___________________\n\n";}
+      cout <<"Frutas Vermelhas : . . .";
+      cin >> c40;
+           if(c40==40)
+             {cout << "Resposta CERTA!!!\n";
+             quantacertos=quantacertos+1;
+             cout<<"__________________Nr:9____________________\n\n";}
+           else 
+             {cout <<"Resposta ERRADA!!!\n";
+             quanterros=quanterros+1;
+             cout<<"___________________Nr:9__________________\n\n";}
+      cout <<"Abacaxi com hortala: . . .";
+      cin >> c96;
+           if(c96==96)
+             {cout << "Resposta CERTA!!!\n";
+             quantacertos=quantacertos+1;
+             cout<<"__________________Nr:10___________________\n\n";}
+           else 
+             {cout <<"Resposta ERRADA!!!\n";
+             quanterros=quanterros+1;
+             cout<<"___________________Nr:10__________________\n\n";}
+      cout <<"Uva com Cacau: . . .";
+      cin >> c97;
+           if(c97==97)
+             {cout << "Resposta CERTA!!!\n";
+             quantacertos=quantacertos+1;
+             cout<<"__________________Nr:11___________________\n\n";}
+           else 
+             {cout <<"Resposta ERRADA!!!\n";
+             quanterros=quanterros+1;
+             cout<<"___________________Nr:11__________________\n\n";}
+      cout <<"Manga: . . . ";
+      cin >> c53;
+           if(c53==53)
+             {cout << "Resposta CERTA!!!\n";
+             quantacertos=quantacertos+1;
+             cout<<"__________________Nr:12___________________\n\n";}
+           else 
+             {cout <<"Resposta ERRADA!!!\n";
+             quanterros=quanterros+1;
+             cout<<"___________________Nr:12__________________\n\n";}
+     cout <<"Maracuja: . . . ";
+      cin >> c54;
+           if(c54==54)
+             {cout << "Resposta CERTA!!!\n";
+             quantacertos=quantacertos+1;
+             cout<<"__________________Nr:13___________________\n\n";}
+           else 
+             {cout <<"Resposta ERRADA!!!\n";
+             quanterros=quanterros+1;
+             cout<<"___________________Nr:13_________________\n\n";}
+      cout <<"Frutas Vermelhas com cacau: . . . ";
+      cin >> c34;
+           if(c34==34)
+             {cout << "Resposta CERTA!!!\n";
+             quantacertos=quantacertos+1;
+             cout<<"__________________Nr:14___________________\n\n";}
+           else 
+             {cout <<"Resposta ERRADA!!!\n";
+             quanterros=quanterros+1;
+             cout<<"___________________Nr:14__________________\n\n";}
+      cout <<"Limonada suica com gengibre: . . .";
+      cin >> c47;
+           if(c47==47)
+             {cout << "Resposta CERTA!!!\n";
+             quantacertos=quantacertos+1;
+             cout<<"__________________Nr:15__________________\n\n";}
+           else 
+             {cout <<"Resposta ERRADA!!!\n";
+             quanterros=quanterros+1;
+             cout<<"___________________Nr:15__________________\n\n";}
+      
+	  }
+      
+      //......................................................................................Sequencia aleatoria 8...............................................................................................
+      if (aleatorio==8)
+     {cout <<"Melancia: . . . ";
+      cin >> c55;
+           if(c55==55)
+             {cout << "Resposta CERTA!!!\n";
+              quantacertos=quantacertos+1;
+              cout<<"__________________Nr:1____________________\n\n";}
+          else 
+             {cout <<"Resposta ERRADA!!!\n";
+             quanterros=quanterros+1;
+             cout<<"___________________Nr:1___________________\n\n";}
+      
+	  cout <<"Limonada suica com gengibre e hortela";
+      cin >> c47;
+	      if(c47==47)
+             {cout << "Resposta CERTA!!!\n";
+             quantacertos=quantacertos+1;
+             cout<<"__________________Nr:2____________________\n\n";}
+          else 
+             {cout <<"Resposta ERRADA!!!\n";
+             quanterros=quanterros+1;
+             cout<<"___________________Nr:2___________________\n\n";}
+             
+      cout <<"Maracuja: . . . ";
+      cin >> c54;
+           if(c54==54)
+             {cout << "Resposta CERTA!!!\n";
+             quantacertos=quantacertos+1;
+             cout<<"__________________Nr:3____________________\n\n";}
+          else 
+             {cout <<"Resposta ERRADA!!!\n";
+              quanterros=quanterros+1;
+              cout<<"___________________Nr:3___________________\n\n";}
+	  cout <<"Frutas vermelhas com cacau: . . . ";
+      cin >> c34;
+           if(c34==34)
+             {cout << "Resposta CERTA!!!\n";
+              quantacertos=quantacertos+1;
+              cout<<"__________________Nr:4____________________\n\n";}
+          else 
+              {cout <<"Resposta ERRADA!!!\n";
+              quanterros=quanterros+1;
+              cout<<"___________________Nr:4___________________\n\n";}
+      cout <<"Manga: . . . ";
+      cin >> c53;
+           if(c53==53)
+             {cout << "Resposta CERTA!!!\n";
+             quantacertos=quantacertos+1;
+             cout<<"__________________Nr:5____________________\n\n";}
+          else 
+             {cout <<"Resposta ERRADA!!!\n";
+             quanterros=quanterros+1;
+             cout<<"___________________Nr:5___________________\n\n";}
+	  cout <<"Uva com cacau: . . .";
+      cin >> c97;
+           if(c97==97)
+             {cout << "Resposta CERTA!!!\n";
+             quantacertos=quantacertos+1;
+             cout<<"__________________Nr:6____________________\n\n";}
+          else 
+             {cout <<"Resposta ERRADA!!!\n";
+             quanterros=quanterros+1;
+             cout<<"___________________Nr:6___________________\n\n";}
+      cout <<"Frutas vermelhas: . . . ";
+      cin >> c40;
+          if(c40==40)
+             {cout << "Resposta CERTA!!!\n";
+             quantacertos=quantacertos+1;
+             cout<<"__________________Nr7___________________\n\n";}
+          else 
+             {cout <<"Resposta ERRADA!!!\n";
+             quanterros=quanterros+1;
+             cout<<"___________________Nr:7_______________\n\n";}
+	  cout <<"Abacaxi com hortela: . . .";
+      cin >> c96;
+           if(c96==96)
+             {cout << "Resposta CERTA!!!\n";
+              quantacertos=quantacertos+1;
+              cout<<"__________________Nr:8____________________\n\n";}
+          else 
+             {cout <<"Resposta ERRADA!!!\n";
+              quanterros=quanterros+1;
+             cout<<"___________________Nr:8___________________\n\n";}
+      cout <<"Acerola : . . .";
+      cin >> c39;
+           if(c39==39)
+             {cout << "Resposta CERTA!!!\n";
+             quantacertos=quantacertos+1;
+             cout<<"__________________Nr:9____________________\n\n";}
+           else 
+             {cout <<"Resposta ERRADA!!!\n";
+             quanterros=quanterros+1;
+             cout<<"___________________Nr:9__________________\n\n";}
+      cout <<"Uva: . . .";
+      cin >> c61;
+           if(c61==61)
+             {cout << "Resposta CERTA!!!\n";
+             quantacertos=quantacertos+1;
+             cout<<"__________________Nr:10___________________\n\n";}
+           else 
+             {cout <<"Resposta ERRADA!!!\n";
+             quanterros=quanterros+1;
+             cout<<"___________________Nr:10__________________\n\n";}
+      cout <<"Abacaxi: . . .";
+      cin >> c38;
+           if(c38==38)
+             {cout << "Resposta CERTA!!!\n";
+             quantacertos=quantacertos+1;
+             cout<<"__________________Nr:11___________________\n\n";}
+           else 
+             {cout <<"Resposta ERRADA!!!\n";
+             quanterros=quanterros+1;
+             cout<<"___________________Nr:11__________________\n\n";}
+      cout <<"Tangirina: . . . ";
+      cin >> c60;
+           if(c60==60)
+             {cout << "Resposta CERTA!!!\n";
+             quantacertos=quantacertos+1;
+             cout<<"__________________Nr:12___________________\n\n";}
+           else 
+             {cout <<"Resposta ERRADA!!!\n";
+             quanterros=quanterros+1;
+             cout<<"___________________Nr:12__________________\n\n";}
+     
+      cout <<"Limonada suica: . . . ";
+      cin >> c37;
+           if(c37==37)
+             {cout << "Resposta CERTA!!!\n";
+             quantacertos=quantacertos+1;
+             cout<<"__________________Nr:13___________________\n\n";}
+           else 
+             {cout <<"Resposta ERRADA!!!\n";
+             quanterros=quanterros+1;
+             cout<<"___________________Nr:13__________________\n\n";}
+      cout <<"Morango: . . .";
+      cin >> c57;
+           if(c57==57)
+             {cout << "Resposta CERTA!!!\n";
+             quantacertos=quantacertos+1;
+             cout<<"__________________Nr:14__________________\n\n";}
+           else 
+             {cout <<"Resposta ERRADA!!!\n";
+             quanterros=quanterros+1;
+             cout<<"___________________Nr:14__________________\n\n";}
+      cout <<"Laranja: . . . ";
+      cin >> c36;
+           if(c36==36)
+             {cout << "Resposta CERTA!!!\n";
+             quantacertos=quantacertos+1;
+             cout<<"__________________Nr:15___________________\n\n";}
+           else 
+             {cout <<"Resposta ERRADA!!!\n";
+             quanterros=quanterros+1;
+             cout<<"___________________Nr:15_________________\n\n";}
+           
+	  }
+      //......................................................................................Sequencia aleatoria 9...............................................................................................
+      if (aleatorio==9)
+     {cout <<"Limonada Suiça com gengibre: . . .";
+      cin >> c47;
+           if(c47==47)
+             {cout << "Resposta CERTA!!!\n";
+              quantacertos=quantacertos+1;
+              cout<<"__________________Nr:1____________________\n\n";}
+          else 
+             {cout <<"Resposta ERRADA!!!\n";
+             quanterros=quanterros+1;
+             cout<<"___________________Nr:2___________________\n\n";}
+      
+	  cout <<"Frutas Vermelhas com cacau: . . .";
+      cin >> c34;
+	      if(c34==34)
+             {cout << "Resposta CERTA!!!\n";
+             quantacertos=quantacertos+1;
+             cout<<"__________________Nr:1____________________\n\n";}
+          else 
+             {cout <<"Resposta ERRADA!!!\n";
+             quanterros=quanterros+1;
+             cout<<"___________________Nr:2___________________\n\n";}
+             
+      cout <<"Uva com cacau: . . .";
+      cin >> c97;
+           if(c97==97)
+             {cout << "Resposta CERTA!!!\n";
+             quantacertos=quantacertos+1;
+             cout<<"__________________Nr:1____________________\n\n";}
+          else 
+             {cout <<"Resposta ERRADA!!!\n";
+              quanterros=quanterros+1;
+              cout<<"___________________Nr:2___________________\n\n";}
+	  cout <<"Abacaxi com hortela: . . .";
+      cin >> c96;
+           if(c96==96)
+             {cout << "Resposta CERTA!!!\n";
+              quantacertos=quantacertos+1;
+              cout<<"__________________Nr:1____________________\n\n";}
+          else 
+              {cout <<"Resposta ERRADA!!!\n";
+              quanterros=quanterros+1;
+              cout<<"___________________Nr:2___________________\n\n";}
+      cout <<"Uva: . . .";
+      cin >> c61;
+           if(c61==61)
+             {cout << "Resposta CERTA!!!\n";
+             quantacertos=quantacertos+1;
+             cout<<"__________________Nr:1____________________\n\n";}
+          else 
+             {cout <<"Resposta ERRADA!!!\n";
+             quanterros=quanterros+1;
+             cout<<"___________________Nr:2___________________\n\n";}
+	  cout <<"Tangerina: . . .";
+      cin >> c60;
+           if(c60==60)
+             {cout << "Resposta CERTA!!!\n";
+             quantacertos=quantacertos+1;
+             cout<<"__________________Nr:1____________________\n\n";}
+          else 
+             {cout <<"Resposta ERRADA!!!\n";
+             quanterros=quanterros+1;
+             cout<<"___________________Nr:2___________________\n\n";}
+      cout <<"Morango: . . .";
+      cin >> c57;
+          if(c57==57)
+             {cout << "Resposta CERTA!!!\n";
+             quantacertos=quantacertos+1;
+             cout<<"__________________Nr:1____________________\n\n";}
+          else 
+             {cout <<"Resposta ERRADA!!!\n";
+             quanterros=quanterros+1;
+             cout<<"___________________Nr:2___________________\n\n";}
+	  cout <<"Melancia: . . .";
+      cin >> c55;
+           if(c55==55)
+             {cout << "Resposta CERTA!!!\n";
+              quantacertos=quantacertos+1;
+              cout<<"__________________Nr:1____________________\n\n";}
+          else 
+             {cout <<"Resposta ERRADA!!!\n";
+              quanterros=quanterros+1;
+             cout<<"___________________Nr:2___________________\n\n";}
+      cout <<"Maracuja: . . .";
+      cin >> c54;
+           if(c54==54)
+             {cout << "Resposta CERTA!!!\n";
+             quantacertos=quantacertos+1;
+             cout<<"__________________Nr:1____________________\n\n";}
+           else 
+             {cout <<"Resposta ERRADA!!!\n";
+             quanterros=quanterros+1;
+             cout<<"___________________Nr:2___________________\n\n";} 
+      cout <<"Manga: . . .";
+      cin >> c53;
+           if(c53==53)
+             {cout << "Resposta CERTA!!!\n";
+             quantacertos=quantacertos+1;
+             cout<<"__________________Nr:1____________________\n\n";}
+           else 
+             {cout <<"Resposta ERRADA!!!\n";
+             quanterros=quanterros+1;
+             cout<<"___________________Nr:2___________________\n\n";} 
+      cout <<"Frutas Vermelhas: . . .";
+      cin >> c40;
+           if(c40==40)
+             {cout << "Resposta CERTA!!!\n";
+             quantacertos=quantacertos+1;
+             cout<<"__________________Nr:1____________________\n\n";}
+           else 
+             {cout <<"Resposta ERRADA!!!\n";
+             quanterros=quanterros+1;
+             cout<<"___________________Nr:2___________________\n\n";} 
+      cout <<"Acerola: . . .";
+      cin >> c39;
+           if(c39==39)
+             {cout << "Resposta CERTA!!!\n";
+             quantacertos=quantacertos+1;
+             cout<<"__________________Nr:1____________________\n\n";}
+           else 
+             {cout <<"Resposta ERRADA!!!\n";
+             quanterros=quanterros+1;
+             cout<<"___________________Nr:2___________________\n\n";} 
+       cout <<"Abacaxi: . . .";
+      cin >> c38;
+           if(c38==38)
+             {cout << "Resposta CERTA!!!\n";
+             quantacertos=quantacertos+1;
+             cout<<"__________________Nr:1____________________\n\n";}
+           else 
+             {cout <<"Resposta ERRADA!!!\n";
+             quanterros=quanterros+1;
+             cout<<"___________________Nr:2___________________\n\n";} 
+      cout <<"Limonada Suica: . . .";
+      cin >> c37;
+           if(c37==37)
+             {cout << "Resposta CERTA!!!\n";
+             quantacertos=quantacertos+1;
+             cout<<"__________________Nr:1____________________\n\n";}
+           else 
+             {cout <<"Resposta ERRADA!!!\n";
+             quanterros=quanterros+1;
+             cout<<"___________________Nr:2___________________\n\n";} 
+      cout <<"Laranja: . . .";
+      cin >> c36;
+           if(c36==36)
+             {cout << "Resposta CERTA!!!\n";
+             quantacertos=quantacertos+1;
+             cout<<"__________________Nr:1____________________\n\n";}
+           else 
+             {cout <<"Resposta ERRADA!!!\n";
+             quanterros=quanterros+1;
+             cout<<"___________________Nr:2___________________\n\n";} 
+	  }  
+      
+      
+      
+      
+cout <<"-------------------------RESULTADO-------------------------\n\n\n";
+cout <<"VOCE ACERTOU ----- "<<quantacertos<<"   "<<endl;
+cout <<"VOCE ERROU ------- "<<quanterros<<"     "<<endl;
+    
+   
+system("pause");
+}
