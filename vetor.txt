@@ -1,0 +1,24 @@
+#include <iostream>
+using namespace std;
+
+ 
+
+int main() {
+    int nr[4], i;
+    
+    // Carregando o vetor com dados fornecido pelo usuário
+    for (i=0; i<4; i++)
+    {
+       cout << "Numero..: ";
+       cin >> nr[i];
+        
+    }    
+    cout<< " --------------- Relatorio ------------------"<<endl;
+    // imprimindo os números digitados
+    for (i = 0; i<4; i++)
+    {
+        cout << i+1 << ": " << nr[i] << endl;
+    }
+    
+    return 0;
+}
