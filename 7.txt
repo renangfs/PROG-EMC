@@ -1,0 +1,14 @@
+entrada
+inteiros salario,porcento,newsal;
+
+escreva("Digite o salario")
+leia salaro
+
+se(salario<500)
+porcento=salario*0.30
+newsal=salario+porcento
+escrava("Seu salario teve bonus de 30 Porcento R$: %d",porcento );
+escreva("Seu salario atualizado e R$: %d", newsal);
+senao
+escreva("seu salario nao obteve o bonus ")
+FIM

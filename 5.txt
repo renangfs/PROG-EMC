@@ -1,0 +1,53 @@
+entrada
+float n1, n2, media, diferenca, produto, divisao, opcao;
+escreva("digite o numero:...")
+leia n1
+escreva("digite o numero novamente:...")
+leia n2
+
+processo
+escreva("_______________________________\n\n");
+escreva("Selecione uma das opções abaixo:\n\n");
+escreva("1 - Média do Usuário\n");
+escreva("2 - Diferença entre o maior e menor\n");
+escreva("3 - Produto entre os números digitados\n");
+escreva("4 - Divisão do primero pelo segundo\n");
+escreva("_____________________________\n\n");
+escreva("Digite o número da operação...");
+escreva("%f", &opcao);
+
+se(opcao==1){
+media = (n1 + n2)/2;
+escreva=("A media e %f", media)}
+
+senao se(opcao==2)
+         {se (n1>n2){diferanca=n1-n2;
+               escreva("A diferenca e %f", diferenca);}
+         senao{diferenca = n2- n1;
+               escreva("A diferença e %f", diferenca);
+}
+senao se(opcao ==3)
+     {produto=n1*n2;
+          escreva("O produto e %f", produto");}
+senao se(opcao==4){
+          se(n2 ==0);{
+            escreva("O segundo numero digitado foi zero, nao podemos fazer essa                       operacao"):}
+          senao{
+         divisao=n1/n2;
+             escreva=("A divisao e %d", divisao");}
+}
+else
+{
+ escreva("\n  ERRO!!! \n Numero nao cadrastado......");
+}
+fim
+
+
+    
+       
+
+ 
+
+
+
+

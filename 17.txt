@@ -1,0 +1,10 @@
+Entrada
+ inteiro n1
+Escreva("Digite a senha:...")
+leia n1
+
+Se(n1=4531)
+Escreva("senha aprovada")
+senao
+Escreva("senha incorreta")
+fim

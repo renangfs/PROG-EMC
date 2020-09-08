@@ -1,0 +1,12 @@
+inteiro n1,n2,
+entrada
+escrava("primeiro numero:.."
+leia n1
+escrava("segundo numero:.."
+leia n2
+se (n1 > n2)
+escreva n1
+senao
+escreva n2
+fim
+
