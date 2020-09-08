@@ -2,7 +2,7 @@
 31/03/2020
 
 
-Atribuiçao: x=y //x recebe o conteúdo da variável y
+Atribuiçao: x=y //x recebe o conteúdo da variável  
 Comparação:x==y//o conteudo da variavel x e igual o conteudo da variavel y?
 
 exemplos:
